@@ -2,6 +2,7 @@ import Mixin from '@ember/object/mixin';
 import { computed, observer } from '@ember/object';
 import ArrayProxy from '@ember/array/proxy';
 import Evented from '@ember/object/evented';
+import PromiseProxyMixin from '@ember/object/promise-proxy-mixin';
 import { once } from '@ember/runloop';
 import Util from 'ember-cli-pagination/util';
 import LockToRange from 'ember-cli-pagination/watch/lock-to-range';
